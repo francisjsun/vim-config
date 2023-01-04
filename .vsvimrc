@@ -1,0 +1,11 @@
+set ignorecase
+set smartcase
+set hlsearch
+set incsearch
+
+let mapleader = " "
+nmap <leader>/ :noh<CR>
+nmap <leader>o :vsc EditorContextMenus.CodeWindow.ToggleHeaderCodeFile<CR>
+nmap <leader>w :vsc Edit.FormatDocument<CR> :w<CR>
+nmap <C-O> :vsc View.NavigateBackward<CR>
+nmap <C-I> :vsc View.NavigateForward<CR>
